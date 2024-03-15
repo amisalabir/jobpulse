@@ -106,8 +106,44 @@ Make sure you download this file and open it with any browser (Ref: Main Live Cl
 
 
 https://drive.google.com/file/d/1yftKVqW-YrMIkvhq9BE2nO-Us094P5sL/view?usp=sharing
-"# jobpulse" 
-"# jobpulse" 
-"# jobpulse" 
-"# jobpulse" 
-"# jobpulse" 
+============================================
+User Registration and Authentication: Users can create accounts, log in, and manage their profiles securely.
+
+Job Listings: Employers can post detailed job listings, including job descriptions, requirements, location, and more.
+
+Advanced Search: Job seekers can filter job listings based on various criteria such as location, industry, experience level, and more.
+
+Application Management: Job seekers can submit applications for job listings and track their application status.
+
+Messaging System: A built-in messaging system facilitates communication between job seekers and employers.
+
+Resume Upload: Job seekers can upload and manage their resumes, making it easy for employers to review qualifications.
+
+Admin Panel: An admin panel provides administrators with the ability to manage users, job listings, and oversee the platform's operations.
+
+Responsive Design: The application is designed to be responsive, ensuring a seamless experience on both desktop and mobile devices.
+
+Notifications: Users receive email notifications for job application updates, messages, and more.
+
+Technologies Used:
+
+Backend: Laravel PHP framework
+Frontend: Vue.js JavaScript framework
+Database: MySQL or any supported database system
+Other Technologies: HTML, CSS, JavaScript, AJAX, REST API
+==================================
+Instructions to run:
+run composer update instead of composer install also run php artisan
+
+DB_HOST=127.0.0.1 
+DB_PORT=3306 
+DB_DATABASE=
+DB_USERNAME=root
+
+~composer install
+~npm install
+~npm run dev
+DB_PASSWORD= 
+~php artisan migrate:fresh
+~php artisan db:seed
+~php artisan serve

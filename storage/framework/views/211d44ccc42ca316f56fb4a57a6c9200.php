@@ -50,7 +50,7 @@
         <div class="col-md-12">
           <p>
           
-          Copyright &copy; </script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This JobBoard develop by <a href="https://nababur.info/" target="_blank" >Nababur rahaman</a>
+          Copyright &copy; </script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | This JobBoard developed by <a href="https://ostad.app/" target="_blank" >Kazi Sala Uddin</a>
 
           </p>
         </div>
